@@ -1,0 +1,120 @@
+/* Nav */
+.nav_main {
+    width: 100%;
+}
+/* Search */
+.search {
+    width: 400px;
+}
+
+.col-md-4 {
+    margin-bottom: 20px;
+}
+/* Footer */
+.footer{
+    width: 100%;
+    background-color: white;
+    border: none;
+    float: left;
+}
+p{
+    color: black;
+}
+.content{
+    height: 600px;
+}
+/* Ben trai */
+#Left_Section{
+    width: 40%;
+    height: 400px;
+    float: left;
+}
+/* Hinh anh ben trai */
+#Left_Section img{
+    width: 350px;
+    padding-top: 20px;
+    padding-left: 20px;
+    height: 400px;
+}
+/* Ben phai */
+#Right_Section{
+    width: 60%;
+    height: 400px;
+    float: left;
+}
+/* Ten sach ben phai */
+#Right_Section .TenSach{
+    padding-top: 20px;
+    width: 100%;
+    float: left;
+    height: 58px;
+}
+/* Tac gia ben phai*/
+#Right_Section .TacGia{
+    width: 100%;
+    float: left;    
+}
+/* Gia */
+#Right_Section .Gia{
+    padding-top: 10px;
+    width: 100%;
+    float: left;
+}
+/* Khung so luong ben phai*/
+#Right_Section .soluong{
+    padding-top: 170px;
+    width: 100%;
+    float: left;
+    height: 210px;
+}
+
+/* dau tru */
+.dautru{
+    height: 30px;
+    width:30px;
+    text-align: center;
+    background-color: white;
+}
+/* dau cong */
+.daucong{
+    height: 30px;
+    width:30px;
+    text-align: center;
+    background-color: white;
+}
+/* so luong */
+.num{
+    height: 30px;
+    width:30px;
+    text-align: center;
+}
+.Mua{
+    background-color: red;
+    color: white;
+    height: 50px;
+    width: 400px;
+}
+
+/* Form nhan xet */
+.NhanXet{
+    width: 100%;
+    float: left;
+    padding-left: 50px;
+}
+.label{
+    float: left;
+}
+#formnhaplieu{
+    float: left;   
+}
+
+.button{
+    padding-top: 10px;
+    padding-left: 50px;
+    width: 100%;
+    float: left;
+}
+.logo{
+    height: 30px;
+    width: 30px;
+}

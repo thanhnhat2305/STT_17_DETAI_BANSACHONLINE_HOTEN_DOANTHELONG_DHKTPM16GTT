@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <link rel="stylesheet" href="/Bootstrap/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="VatPham1.css">
+    <title>Sách thiếu nhi</title>
+</head>
+<body>
+    <!-- Phần Menu -->
+    <div class="nav">
+        <!-- nav_main -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-while nav_main">
+            <div class="container-fluid">
+                <!-- Tựa đề -->
+                <img class="logo" src="/Picture/Logo/logo.png" alt="">
+                <a class="navbar-brand" href="#">Sach.com</a>
+                <!-- Menu chính -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <!-- Giới thiệu -->
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/GioiThieu/GioiThieu.html">Giới thiệu</a>
+                        </li>
+                        <!-- Trang chủ -->
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/TrangChu/TrangChu.html">Trang chủ</a>
+                        </li>
+                        <!-- Địa chỉ -->
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="https://www.google.com/maps/place/296+%C4%90.+L%C6%B0u+H%E1%BB%AFu+Ph%C6%B0%E1%BB%9Bc,+Ph%C6%B0%E1%BB%9Dng+15,+Qu%E1%BA%ADn+8,+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh,+Vi%E1%BB%87t+Nam/@10.7206155,106.6323413,21z/data=!4m5!3m4!1s0x31752e090b14c333:0x7216570be3af5e4b!8m2!3d10.7206342!4d106.6323425?hl=vi-VN">Địa chỉ</a>
+                        </li>
+                        <!-- Thể loại -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Thể Loại
+                            </a>
+                            <!-- Thể loại con -->
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="/TheLoai/HTML/TrinhTham.html">Truyện trinh thám</a></li>
+                                <li><a class="dropdown-item" href="/TheLoai/HTML/VanHoc.html">Văn học</a></li>
+                                <li><a class="dropdown-item" href="/TheLoai/HTML/TruyenTranh.html">Truyện tranh</a></li>
+                                <li><a class="dropdown-item" href="/TheLoai/HTML/SachGiaoKhoa.html">Sách giáo khoa</a></li>
+                                <li><a class="dropdown-item" href="/TheLoai/HTML/SachThieuNhi.html">Sách thiếu nhi</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- form tìm kiếm -->
+                    <form class="d-flex form_Right">
+                        <input class="form-control me-2 search" type="search" placeholder="Tìm sách" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Tìm</button>
+                        <button class="btn btn-outline-success DangNhap" type="submit"><a href="/DangNhap/DangNhap.html">Đăng Nhập</a></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <hr class="my-1 line">
+    <!-- phần thân trang -->
+    <div class="content">
+        <form action="" id="Left_Section">
+            <img src="/Picture/SachThieuNhi/1.jpg" alt="">
+        </form>
+        <form action="" id="Right_Section">
+            <label class="TenSach" for=""><h2>Sách Ehon - Combo 4 cuốn Bạn là ai vậy</h2></label>
+            <label class="TacGia" for="">Tác giả: Fuku Mitsu</label>
+            <label class="Gia" for=""><h3 style="color: red;">156.000đ đ</h3></label>
+            <div class="soluong">
+                <button class="dautru">-</button>
+                <label class="num" for="">1</label>
+                <button class="daucong">+</button>
+            </div>         
+            <div>
+                <button class="Mua" type="submit">Mua</button>
+            </div>           
+        </form>
+        <div class="NhanXet">
+            <label class="label" for="">Nhận xét:</label><br>
+            <textarea name="" id="formnhaplieu" cols="100" rows="5"></textarea>
+        </div>
+        <div class="button" action="">
+            <button type="submit">submit</button>
+            <button type="reset">reset</button>
+        </div>
+    </div>
+    <hr class="my-1 line">
+    <div class="footer">
+        <!-- Footer -->
+        <footer class="text-center text-lg-start text" style="background-color: white">
+            <div class="container p-2 pb-0">
+                    <div class="row">
+                        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                            <h6 class="text-uppercase mb-4 font-weight-bold">SACH.COM</h6>
+                            <p>Trang Web bán sách số 1 trong lớp</p>
+                        </div>
+                        <hr class="w-100 clearfix d-md-none" />
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                            <h6 class="text-uppercase mb-4 font-weight-bold">THỂ LOẠI</h6>
+                            <p><a class="text" href="/TheLoai/HTML/TrinhTham.html">Truyện trinh thám</a></p>
+                            <p><a class="text" href="/TheLoai/HTML/VanHoc.html">Văn học</a></p>
+                            <p><a class="text" href="/TheLoai/HTML/TruyenTranh.html">Truyện tranh</a></p>
+                        </div>
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                            <h6 class="text-uppercase mb-5 font-weight-bold">     </h6>
+                            <p><a class="text" href="/TheLoai/HTML/SachGiaoKhoa.html">Sách giáo khoa</a></p>
+                            <p><a class="text" href="/TheLoai/HTML/SachThieuNhi.html">Sách thiếu nhi</a></p>
+                        </div>
+                        <hr class="w-100 clearfix d-md-none" />
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                            <h6 class="text-uppercase mb-4 font-weight-bold">LIÊN HỆ</h6>
+                            <p><i class="fas fa-home mr-3"></i> <a href="https://www.google.com/maps/place/296+%C4%90.+L%C6%B0u+H%E1%BB%AFu+Ph%C6%B0%E1%BB%9Bc,+Ph%C6%B0%E1%BB%9Dng+15,+Qu%E1%BA%ADn+8,+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh,+Vi%E1%BB%87t+Nam/@10.7206155,106.6323413,21z/data=!4m5!3m4!1s0x31752e090b14c333:0x7216570be3af5e4b!8m2!3d10.7206342!4d106.6323425?hl=vi-VN">Địa chỉ: 296 Lưu Hữu Phước P15 Q8, TP.HCM</a></p>
+                            <p><i class="fas fa-envelope mr-3"></i><a href=""></a> Email: mr.who27112001@gmail.com</p>
+                            <p><i class="fas fa-phone mr-3"></i> Sdt: 032 80 333 48</p>
+                        </div>
+                    </div>
+                    <hr class="my-1">
+                    <div class="p-3">© 2022 Copyright: 19475471 Đoàn thế Long </div>
+            </div>
+        </footer>
+    </div>
+    </div>
+    <script src="/Bootstrap/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+</body>
+</html>

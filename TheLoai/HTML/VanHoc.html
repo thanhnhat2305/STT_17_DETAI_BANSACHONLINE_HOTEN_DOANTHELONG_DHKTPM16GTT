@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Sửa chỗ này -->
+    <title>Văn học</title>
+    <link rel="stylesheet" href="/Bootstrap/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <!-- Sửa chỗ này -->
+    <link rel="stylesheet" href="/TheLoai/CSS/Style.css">
+
+</head>
+<body>
+    <!-- Phần Menu -->
+    <div class="nav">
+        <!-- nav_main -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-while nav_main">
+            <div class="container-fluid">
+                <img class="logo" src="/Picture/Logo/logo.png" alt="">
+                <a class="navbar-brand" href="#">Sach.com</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <!-- Giới thiệu -->
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/GioiThieu/GioiThieu.html">Giới thiệu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/TrangChu/TrangChu.html">Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="https://www.google.com/maps/place/296+%C4%90.+L%C6%B0u+H%E1%BB%AFu+Ph%C6%B0%E1%BB%9Bc,+Ph%C6%B0%E1%BB%9Dng+15,+Qu%E1%BA%ADn+8,+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh,+Vi%E1%BB%87t+Nam/@10.7206155,106.6323413,21z/data=!4m5!3m4!1s0x31752e090b14c333:0x7216570be3af5e4b!8m2!3d10.7206342!4d106.6323425?hl=vi-VN">Địa chỉ</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Thể Loại
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="/TheLoai/HTML/TrinhTham.html">Truyện trinh thám</a></li>
+                                <li><a class="dropdown-item" href="/TheLoai/HTML/VanHoc.html">Văn học</a></li>
+                                <li><a class="dropdown-item" href="/TheLoai/HTML/TruyenTranh.html">Truyện tranh</a></li>
+                                <li><a class="dropdown-item" href="/TheLoai/HTML/SachGiaoKhoa.html">Sách giáo khoa</a></li>
+                                <li><a class="dropdown-item" href="/TheLoai/HTML/SachThieuNhi.html">Sách thiếu nhi</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <!-- search -->
+                        <input class="form-control me-2 search" type="search" placeholder="Tìm sách" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Tìm</button>
+                        <button class="btn btn-outline-success DangNhap" type="submit"><a href="/DangNhap/DangNhap.html">Đăng Nhập</a></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <hr class="my-1 line">
+    <!-- Phần thân trang -->
+    <div class="container">
+        <div class="container mt-5">
+            <div class="row">
+                <!-- Cột sp 1 -->
+                <div class="col-md-3">
+                    <div class="card p-3">
+                        <div class="d-flex flex-row mb-3"><img src="/picture/VanHoc/1.jpg" width="120"></div>
+                        <a  class="book_name" href="/ChiTietSanPham/Vanhoc/VatPham1.html">VĂN HÓA - VĂN HỌC DƯỚI GÓC NHÌN LIÊN KHÔNG GIAN</a>
+                        <div class="d-flex justify-content-between install mt-1 author"><h6>Nguyễn Văn Dân</h6></div>
+                        <div class="d-flex justify-content-between install mb-3 bottom"><span>Giá: 99.360 đ</span><span class="text-primary"><a href="/ChiTietSanPham/Vanhoc/VatPham1.html">Buy</a>&nbsp;<i class="fa fa-angle-right"></i></span></div>
+                    </div>
+                </div>
+                <!-- Cột sp 2 -->
+                <div class="col-md-3">
+                    <div class="card p-3">
+                        <div class="d-flex flex-row mb-3"><img src="/picture/VanHoc/2.jpg" width="120"></div>
+                        <a  class="book_name" href="">Lí Luận Văn Học Tập 1</a>
+                        <div class="d-flex justify-content-between install mt-1 author"><h6>Phương Lựu</h6></div>
+                        <div class="d-flex justify-content-between install mt-3"><span>Giá: 76.000 đ</span><span class="text-primary"><a href="">Buy</a>&nbsp;<i class="fa fa-angle-right"></i></span></div>
+                    </div>
+                </div>
+                <!-- Cột sp 3 -->
+                <div class="col-md-3">
+                    <div class="card p-3">
+                        <div class="d-flex flex-row mb-3"><img src="/picture/VanHoc/3.jpg" width="120">
+                        </div>
+                        <a  class="book_name" href="">Lý luận và phê bình văn học</a>
+                        <div class="d-flex justify-content-between install mt-1 author"><h6>Trần Dình Sử</h6></div>
+                        <div class="d-flex justify-content-between install mt-3"><span>Giá: 77.500 đ</span><span class="text-primary"><a href="">Buy</a>&nbsp;<i class="fa fa-angle-right"></i></span></div>
+                    </div>
+                </div>
+                <!-- Cột sp 4 -->
+                <div class="col-md-3">
+                    <div class="card p-3">
+                        <div class="d-flex flex-row mb-3"><img src="/picture/VanHoc/4.jpg" width="120">
+                        </div>
+                        <a  class="book_name" href="">Combo 6 cuốn Văn Học Việt Nam: Tuyển Tập Vũ Trọng Phụng</a>
+                        <div class="d-flex justify-content-between install mt-1 author"><h6>Vũ Trọng Phụng</h6></div>
+                        <div class="d-flex justify-content-between install mt-3"><span>Giá: 543.000 đ</span><span class="text-primary"><a href="">Buy</a>&nbsp;<i class="fa fa-angle-right"></i></span></div>
+                    </div>
+                </div>
+                <!-- Cột sp 5 -->
+                <div class="col-md-3">
+                    <div class="card p-3">
+                        <div class="d-flex flex-row mb-3"><img src="/picture/VanHoc/5.jpg" width="120">
+                        </div>
+                        <a  class="book_name" href="">Ơ kìa! Tuổi thơ</a>
+                        <div class="d-flex justify-content-between install mt-1 author"><h6>Đào Thiên An</h6></div>
+                        <div class="d-flex justify-content-between install mt-3"><span>Giá: 68.000 đ</span><span class="text-primary"><a href="">Buy</a>&nbsp;<i class="fa fa-angle-right"></i></span></div>
+                    </div>
+                </div>
+                <!-- Cột sp 6 -->
+                <div class="col-md-3">
+                    <div class="card p-3">
+                        <div class="d-flex flex-row mb-3"><img src="/picture/VanHoc/6.jpg" width="120">
+                        </div>
+                        <a  class="book_name" href="">Đời Thừa</a>
+                        <div class="d-flex justify-content-between install mt-1 author"><h6>Nam Cao</h6></div>
+                        <div class="d-flex justify-content-between install mt-3"><span>Giá: 52.000 đ</span><span class="text-primary"><a href="">Buy</a>&nbsp;<i class="fa fa-angle-right"></i></span></div>
+                    </div>
+                </div>
+                <!-- Cột sp 7 -->
+                <div class="col-md-3">
+                    <div class="card p-3">
+                        <div class="d-flex flex-row mb-3"><img src="/picture/VanHoc/7.jpg" width="120">
+                        </div>
+                        <a  class="book_name" href="">Văn Học Việt Nam</a>
+                        <div class="d-flex justify-content-between install mt-1 author"><h6>Nguyễn Lộc</h6></div>
+                        <div class="d-flex justify-content-between install mt-3"><span>Giá: 232.000 đ</span><span class="text-primary"><a href="">Buy</a>&nbsp;<i class="fa fa-angle-right"></i></span></div>
+                    </div>
+                </div>
+                <!-- Cột sp 8 -->
+                <div class="col-md-3">
+                    <div class="card p-3">
+                        <div class="d-flex flex-row mb-3"><img src="/picture/VanHoc/8.jpg" width="120">
+                        </div>
+                        <a  class="book_name" href="">COMBO CUỘC SỐNG BAO ĐIỀU HAY TẬP 3 + 4 - VĂN HỌC TUỔI TEEN</a>
+                        <div class="d-flex justify-content-between install mt-1 author"><h6>Việt An</h6></div>
+                        <div class="d-flex justify-content-between install mt-3"><span>Giá: 178.000 đ</span><span class="text-primary"><a href="">Buy</a>&nbsp;<i class="fa fa-angle-right"></i></span></div>
+                    </div>
+                </div>
+                <!-- Cột sp 9 -->
+                <div class="col-md-3">
+                    <div class="card p-3">
+                        <div class="d-flex flex-row mb-3"><img src="/picture/VanHoc/9.jpg" width="120">
+                        </div>
+                        <a  class="book_name" href="">Văn Học Hậu Hiện Đại</a>
+                        <div class="d-flex justify-content-between install mt-1 author"><h6></h6>Lê Huy Bắc</h6></div>
+                        <div class="d-flex justify-content-between install mt-3"><span>Giá: 111.000 đ</span><span class="text-primary"><a href="">Buy</a>&nbsp;<i class="fa fa-angle-right"></i></span></div>
+                    </div>
+                </div>
+                <!-- Cột sp 10 -->
+                <div class="col-md-3">
+                    <div class="card p-3">
+                        <div class="d-flex flex-row mb-3"><img src="/picture/VanHoc/10.jpg" width="120">
+                        </div>
+                        <a  class="book_name" href="">Tuyển Tập Nguyên Hồng</a>
+                        <div class="d-flex justify-content-between install mt-1 author"><h6>Nguyên Hồng</h6></div>
+                        <div class="d-flex justify-content-between install mt-3"><span>Giá: 73.000 đ</span><span class="text-primary"><a href="">Buy</a>&nbsp;<i class="fa fa-angle-right"></i></span></div>
+                    </div>
+                </div>
+                <!-- Cột sp 11 -->
+                <div class="col-md-3">
+                    <div class="card p-3">
+                        <div class="d-flex flex-row mb-3"><img src="/picture/VanHoc/11.jpg" width="120">
+                        </div>
+                        <a  class="book_name" href="">Lí Luận Văn Học Tập 2</a>
+                        <div class="d-flex justify-content-between install mt-1 author"><h6>Trần Đình Sử</h6></div>
+                        <div class="d-flex justify-content-between install mt-3"><span>Giá: 80.750 đ</span><span class="text-primary"><a href="">Buy</a>&nbsp;<i class="fa fa-angle-right"></i></span></div>
+                    </div>
+                </div>
+                <!-- Cột sp 12 -->
+                <div class="col-md-3">
+                    <div class="card p-3">
+                        <div class="d-flex flex-row mb-3"><img src="/picture/VanHoc/12.jpg" width="120">
+                        </div>
+                        <a  class="book_name" href="">Văn Học Hiện Thực Và Văn Học Suy Đồi Anh Thế Kỷ XIX</a>
+                        <div class="d-flex justify-content-between install mt-1 author"><h6>Lê Đình Cúc</h6></div>
+                        <div class="d-flex justify-content-between install mt-3"><span>Giá: 60.000 đ</span><span class="text-primary"><a href="">Buy</a>&nbsp;<i class="fa fa-angle-right"></i></span></div>
+                    </div>
+                </div>
+                <!-- Cột sp 13 -->
+                <div class="col-md-3">
+                    <div class="card p-3">
+                        <div class="d-flex flex-row mb-3"><img src="/picture/VanHoc/13.jpg" width="120">
+                        </div>
+                        <a  class="book_name" href="">Nhặt chuyện văn nhân</a>
+                        <div class="d-flex justify-content-between install mt-1 author"><h6>Văn Công Hùng</h6></div>
+                        <div class="d-flex justify-content-between install mt-3"><span>Giá: 116.000 đ</span><span class="text-primary"><a href="">Buy</a>&nbsp;<i class="fa fa-angle-right"></i></span></div>
+                    </div>
+                </div>
+                <!-- Cột sp 14 -->
+                <div class="col-md-3">
+                    <div class="card p-3">
+                        <div class="d-flex flex-row mb-3"><img src="/picture/VanHoc/14.jpg" width="120">
+                        </div>
+                        <a  class="book_name" href="">Xã hội học Văn học</a>
+                        <div class="d-flex justify-content-between install mt-1 author"><h6>Phùng Ngọc Kiên</h6></div>
+                        <div class="d-flex justify-content-between install mt-3"><span>Giá: 132.800 đ</span><span class="text-primary"><a href="">Buy</a>&nbsp;<i class="fa fa-angle-right"></i></span></div>
+                    </div>
+                </div>
+                <!-- Cột sp 15 -->
+                <div class="col-md-3">
+                    <div class="card p-3">
+                        <div class="d-flex flex-row mb-3"><img src="/picture/VanHoc/15.jpg" width="120">
+                        </div>
+                        <a  class="book_name" href="">TÔI VẼ EM TRAI TÔI</a>
+                        <div class="d-flex justify-content-between install mt-1 author"><h6>Đào Thiên An</h6></div>
+                        <div class="d-flex justify-content-between install mt-3"><span>Giá: 68.000 đ</span><span class="text-primary"><a href="">Buy</a>&nbsp;<i class="fa fa-angle-right"></i></span></div>
+                    </div>
+                </div>
+                <!-- Cột sp 16 -->
+                <div class="col-md-3">
+                    <div class="card p-3">
+                        <div class="d-flex flex-row mb-3"><img src="/picture/VanHoc/16.jpg" width="120">
+                        </div>
+                        <a  class="book_name" href="">Những Người Đàn Bà</a>
+                        <div class="d-flex justify-content-between install mt-1 author"><h6>Etaf Rum</h6></div>
+                        <div class="d-flex justify-content-between install mt-3"><span>Giá: 52.200 đ</span><span class="text-primary"><a href="">Buy</a>&nbsp;<i class="fa fa-angle-right"></i></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="my-1 line">
+    <div class="footer">
+        <!-- Footer -->
+        <footer class="text-center text-lg-start text"style="background-color: white">
+        <!-- Grid container -->
+        <div class="container p-2 pb-0">
+        <!-- Section: Links -->
+            <section class="">
+                <!--Grid row-->
+                <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">SACH.COM</h6>
+                    <p>Trang Web bán sách số 1 trong lớp</p>
+                </div>
+                <!-- Grid column -->
+                <hr class="w-100 clearfix d-md-none" />
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">THỂ LOẠI</h6>
+                    <p><a class="text" href="/TheLoai/HTML/TrinhTham.html">Truyện trinh thám</a></p>
+                    <p><a class="text" href="/TheLoai/HTML/VanHoc.html">Văn học</a></p>
+                    <p><a class="text" href="/TheLoai/HTML/TruyenTranh.html">Truyện tranh</a></p>                  
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-5 font-weight-bold">     </h6>
+                    <p><a class="text" href="/TheLoai/HTML/SachGiaoKhoa.html">Sách giáo khoa</a></p>
+                    <p><a class="text" href="/TheLoai/HTML/SachThieuNhi.html">Sách thiếu nhi</a></p>
+                </div>
+            <!-- Grid column -->
+            <hr class="w-100 clearfix d-md-none" />
+  
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">LIÊN HỆ</h6>
+                <p><i class="fas fa-home mr-3"></i> <a href="https://www.google.com/maps/place/296+%C4%90.+L%C6%B0u+H%E1%BB%AFu+Ph%C6%B0%E1%BB%9Bc,+Ph%C6%B0%E1%BB%9Dng+15,+Qu%E1%BA%ADn+8,+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh,+Vi%E1%BB%87t+Nam/@10.7206155,106.6323413,21z/data=!4m5!3m4!1s0x31752e090b14c333:0x7216570be3af5e4b!8m2!3d10.7206342!4d106.6323425?hl=vi-VN">Địa chỉ: 296 Lưu Hữu Phước P15 Q8, TP.HCM</a></p>
+                <p><i class="fas fa-envelope mr-3"></i><a href=""></a> Email: mr.who27112001@gmail.com</p>
+                <p><i class="fas fa-phone mr-3"></i> Sdt: 032 80 333 48</p>
+            </div>
+            </div>
+                <hr class="my-1">
+                <div class="p-3">© 2022 Copyright: 19475471 Đoàn thế Long </div>
+             </div>
+        </footer>
+        </div>
+    </div>
+    <script src="/Bootstrap/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+</body>
+</html>

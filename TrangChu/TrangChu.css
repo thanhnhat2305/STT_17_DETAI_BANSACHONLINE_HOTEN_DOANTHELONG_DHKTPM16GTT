@@ -1,0 +1,31 @@
+.nav_main{
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.search{
+    width: 400px;
+}
+.col-md-4{
+    margin-bottom: 20px;
+}
+.card{
+    height: 360px;
+    width: 200px;
+    margin-bottom: 30px;
+}
+.author h6{
+    font-size: 13px;
+}
+.footer{
+    width: 100%;
+    background-color: white;
+    border: none;
+    /* border-top: 1px solid black; */
+}
+p{
+    color: black;
+}
+.logo{
+    height: 30px;
+    width: 30px;
+}
